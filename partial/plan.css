@@ -1,0 +1,40 @@
+.plan-container div ul {
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+.plan-container div ul li {
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 1.5rem;
+    font-size: var(--body-fz);
+}
+.plan-container div ul li:first-child {
+    font-size: var(--plan-title-fz);
+    font-weight: var(--bold);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 1.5rem;
+}
+.plan-container div ul li:nth-child(2) {
+    background-color: var(--primary-color);
+    font-size: 4rem;
+    color: var(--bg-color);
+    padding: 1rem;
+}
+.plan-container div ul li:nth-child(2) span {
+    font-size: 2rem;
+}
+.plan-container div ul li:last-child button {
+    width: 17rem;
+    height: 4rem;
+    border: none;
+    border-radius: 2.5rem;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    color: var(--bg-color);
+    font-size: var(--btn-fz);
+}

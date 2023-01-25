@@ -1,0 +1,27 @@
+:root {
+    /* Color */
+    --primary-color: #3289EA;
+    --topbar-color: #A1C8F3;
+    --bg-color: #fff;
+    --body-text-color: #333;
+    --black: #000;
+
+    /* Font */
+    --primary-font-family: 'Lato';
+
+    /* Font size */
+    --body-fz: 1.8rem;
+    --banner1-fz: 8rem;
+    --banner2-fz: 10rem;
+    --nav-fz: 2rem;
+    --main-title-fz: 5rem;
+    --sub-title-fz: 3.5rem;
+    --btn-fz: 1.3rem;
+    --plan-title-fz: 3rem;
+
+
+    /* Font weight */
+    --bold: 700;
+    --thin: 100;
+    --normal: 400;
+}

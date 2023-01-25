@@ -1,0 +1,20 @@
+.topbar {
+    background-color: var(--topbar-color);
+    height: 10rem;
+    line-height: 10rem;
+    text-align: center;
+}
+.topbar p {
+    font-size: var(--body-fz);
+    font-weight: var(--bold);
+    color: #224466;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+@media (max-width: 992px) {
+    .topbar p {
+        font-size: 1.1rem;
+        letter-spacing: normal;
+    }
+}

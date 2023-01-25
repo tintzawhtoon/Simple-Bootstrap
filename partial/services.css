@@ -1,0 +1,34 @@
+.services-photo {
+    width: 16rem;
+    height: 16rem;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-title {
+    font-size: var(--plan-title-fz);
+    font-weight: var(--bold);
+    text-transform: uppercase;
+}
+.services-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.services-item p {
+    font-size: var(--body-fz);
+}
+
+.services-item button {
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 2.5rem;
+    background-color: var(--primary-color);
+    border: none;
+    font-size: var(--btn-fz);
+    font-weight: var(--bold);
+    text-transform: uppercase;
+    color: var(--bg-color);
+}

@@ -1,0 +1,11 @@
+.main-title {
+    font-size: var(--main-title-fz);
+    font-weight: var(--thin);
+    color: var(--primary-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+.m-80 {
+    padding-top: 8rem;
+}

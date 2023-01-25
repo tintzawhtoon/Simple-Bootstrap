@@ -1,0 +1,8 @@
+.aboutus-content p {
+    font-size: var(--body-fz);
+    padding-bottom: 2rem;
+    color: var(--body-text-color);
+}
+.aboutus-content p:last-child {
+    padding-bottom: 0;
+}
